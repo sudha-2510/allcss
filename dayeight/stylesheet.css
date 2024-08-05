@@ -1,0 +1,280 @@
+*{
+    
+    border-radius:5px;
+    
+  }
+  body{
+      background-color: black;
+  }
+  div input{
+      background-color: black;
+      color:white;
+      border-radius: 30px;
+      padding:5px 35px;
+  }
+  h1{
+    color:rgba(0, 0, 0, 0.933);
+  }
+        .R{
+    background-color: rgb(247, 205, 182);     
+    padding:20px;
+    width:15%;
+    height:200;
+    text-align: left;
+    margin:20px;
+    border:5%;
+    display: inline-block; 
+    text-shadow:3px 3px red;
+    font-family: 'monospace';
+    text-decoration: 5px dotted yellowgreen underline;
+
+}
+.kotlin{
+    background-color: rgba(150, 195, 247, 0.958);     
+    padding:20px;
+    width:15%;
+    height:200;
+    text-align: left;
+    margin:20px;
+    border:5%;
+    display: inline-block; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow:3px 3px red;
+    
+    text-decoration: 5px dotted yellowgreen underline;
+}
+.Node{
+    background-color: rgb(161, 247, 150);     
+    padding:20px;
+    width:15%;
+    height:200;
+    
+    margin:20px;
+    border:5%;
+    display: inline-block; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow:3px 3px  red;
+    text-decoration: 5px dotted yellowgreen underline;
+    direction: ltr;
+}
+.React{
+    background-color: rgb(169, 202, 61);     
+    padding:20px;
+    width:15%;
+    height:200;
+    text-align:left;
+    margin:20px;
+    border:5%;
+    display: inline-block; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow:3px 3px red;
+    
+    text-decoration: 5px dotted yellowgreen underline;
+}
+    .xml{
+        background-color: rgba(243, 135, 155, 0.938);     
+        padding:20px;
+        width:15%;
+        height:200;
+        text-align:center;
+        margin:20px;
+        border:5%;
+        display: inline-block; 
+        font-family: cursive;
+         
+    text-shadow:3px 3px  red;
+    text-decoration: 5px solid yellowgreen underline;
+    }
+    .Json{
+        background-color: rgb(176, 150, 247);     
+        padding:20px;
+        width:15%;
+        height:200;
+        text-align: center;
+        margin:20px;
+        border:5%;
+        display: inline-block; 
+        font-family: cursive;
+         
+    text-shadow:3px 3px  red;
+    text-decoration: 5px solid yellowgreen underline;
+    }
+    .vue{
+        background-color: rgb(176, 150, 247);     
+        padding:20px;
+        width:15%;
+        height:200;
+        text-align: center;
+        margin:20px;
+        border:5%;
+        display: inline-block; 
+        font-family: cursive;
+         
+    text-shadow:3px 3px  red;
+    text-decoration: 5px solid yellowgreen underline;
+    }
+    .mysql{
+        background-color: rgb(176, 150, 247);     
+        padding:20px;
+        width:15%;
+        height:200;
+        text-align: center;
+        margin:20px;
+        border:5%;
+        display: inline-block; 
+        font-family: cursive;
+
+
+       
+        
+    text-shadow:3px 3px  red;
+    text-decoration: 5px solid yellowgreen underline;
+}
+.sass{
+    background-color:rgb(241, 241, 214);
+    padding:20px;
+    width:15%;
+    height:200;
+    margin:20px; 
+    text-align: right;
+    display: inline-block; 
+  
+    text-shadow:3px 3px  red;
+    text-decoration: 5px dotted blueviolet overline;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  .icons{
+    background-color:rgb(166, 100, 233);
+    padding:20px;
+    width:15%;
+    height:200;
+    margin:20px; 
+    text-align:right;
+    display: inline-block;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow:3px 3px  red;
+    text-decoration: 5px  dotted blueviolet overline; 
+  }
+  .rwd{
+    background-color:rgb(241, 173, 116);
+    padding:20px;
+    width:15%;
+    height:200;
+    margin:20px; 
+    text-align: right;
+    display: inline-block; 
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow:3px 3px  red;
+    text-decoration: 5px dotted blueviolet overline;
+  }
+  .graphics{
+    background-color:rgb(9, 224, 239);
+    padding:20px;
+    width:15%;
+    height:200;
+    margin:20px; 
+    text-align: right;
+    display: inline-block; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow:3px 3px  red;
+    text-decoration: 5px dotted blueviolet overline ;
+  }
+  .svg{
+    background-color:rgb(239, 189, 142);
+    padding:20px;
+    width:15%;
+    height:200;
+     
+    text-align: left;
+    display: inline-block; 
+    margin:20px ;
+    text-shadow:3px 3px  red;
+    text-decoration: 5px dotted blueviolet overline ;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+  }
+  .canvas{
+    background-color:rgb(249, 202, 235);
+    padding:20px;
+    width:15%;
+    height:200;
+    margin:20px; 
+    text-align: left;
+    display: inline-block; 
+    text-shadow:3px 3px  red;
+    text-decoration: 5px dotted blueviolet overline ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  .rasberry{
+    background-color:rgb(237, 237, 77);
+    padding:20px;
+    width:15%;
+    height:200;
+    margin:20px; 
+    text-align: left;
+    display: inline-block; 
+    text-shadow:3px 3px  red;
+    text-decoration: 5px dotted blueviolet overline ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  .cyber{
+    background-color:rgb(202, 236, 205);
+    padding: 20px;
+    width:15%;
+    height:200;
+    margin:20px; 
+    text-align: left;
+    display: inline-block; 
+    text-shadow:3px 3px  red;
+    text-decoration: 5px dotted blueviolet overline ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  .colors{
+    background-color:rgb(193, 112, 135);
+    padding:20px;
+    width:15%;
+    height:200;
+    margin:20px; 
+    text-align: center;
+    display: inline-block;
+    text-shadow:3px 3px  red;
+    text-decoration: 5px dotted blueviolet overline ;
+    font-family: cursive; 
+  }
+  .git{
+    background-color:rgb(236, 178, 142);
+    padding:20px;
+    width:15%;
+    height:200;
+    margin:20px; 
+    text-align: center;
+    display: inline-block; 
+    text-shadow:3px 3px  red;
+    text-decoration: 5px dotted blueviolet overline ;
+    font-family: cursive; 
+  }
+  .mat{
+    background-color:rgb(130, 156, 209);
+    padding:20px;
+    width:15%;
+    height:200;
+    margin:20px; 
+    text-align: center;
+    display: inline-block; 
+    text-shadow:3px 3px  red;
+    text-decoration: 5px dotted blueviolet overline ;
+    font-family: cursive; 
+  }
+  .nump{
+    background-color:rgb(122, 149, 130);
+    padding:20px;
+    width:15%;
+    height:200;
+    margin:20px; 
+    text-align: center;
+    display: inline-block; 
+    text-shadow:3px 3px  red;
+    text-decoration: 5px dotted blueviolet overline ;
+    font-family: cursive; 
+  }
+  
