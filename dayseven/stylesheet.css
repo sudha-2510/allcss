@@ -1,0 +1,130 @@
+.wats{
+    width:300px;
+    height:600px;
+    border: 5px solid rgb(22, 27, 22);
+    border-radius:40px;
+    position: relative;
+    background-color: antiquewhite;
+    overflow:scroll;
+   scrollbar-width: none;
+   left:500px;
+}
+.top{
+    width: 300px;
+    height: 60px;
+    background-color: rgb(37, 138, 37);
+    position:sticky;
+    top:0px;
+    z-index: 1;
+}
+.phone{
+  position:absolute;
+  bottom:10px;
+  right:0px;
+  left:201px;
+
+}
+.vc{
+  position: absolute;
+  bottom:10px;
+  right:0px;
+  left:240px;
+  
+}
+.arrow{
+  position: absolute;
+  bottom:10px;
+}
+.dot{
+  position: absolute;
+  bottom:10px;
+  right:0px;
+}
+.name{
+    position: absolute;
+    left:80px;
+    font-weight:bolder;
+    top:0px;
+  }
+  .typing{
+    position: absolute;
+    color: rgb(149, 149, 217);
+    left: 70px;
+    bottom:4px;
+  }
+  .dp{
+    border-radius: 60%;
+    height:60px;
+    width:60px;
+    border:4px;
+    position:relative;
+    left:15px;
+    bottom:4px;
+  }
+  .bottom{  
+    position:absolute;
+    margin-top:5px;
+    left:15px;
+    height:50px;
+    width:250px;
+    background-color:rgb(225, 219, 210);
+    border-radius:40px;
+       
+  }
+  .msg{
+    height:30px;
+    width:80px;
+    background-color:rgb(225, 219, 210) ;
+    border:10px;
+    position:absolute;
+    bottom:10px;
+    left:50px;
+  }
+  .rs{
+    position:absolute;
+    right:50px;
+    top:20px;
+    color:grey;
+  }
+  .cam{
+    position:absolute;
+    right:15px;
+    top:15px;
+  }
+  .voice{
+    position:absolute;
+    right:-30px;
+    top:10px;
+  }
+  .emoji{
+    position: absolute;
+    left:10px;
+    top:15px;
+  }
+  .date1{
+    position:sticky;
+    top:60px;
+    background-color:rgb(114, 180, 213);
+    width:100px;
+    padding:5px;
+    margin-left:100px;
+    border-radius:10px;
+    z-index: 1;}
+  
+  #a{ 
+    text-align:left;
+    background-color: rgba(119, 81, 72, 0.544);
+    width:160px;
+    border-radius:10px;
+    padding:3px;
+  }
+  #b {
+    text-align: right;
+    background-color: aliceblue; 
+    border-radius:10px;
+    align-self: flex-start;
+    padding:3px;
+    margin-right: 10px;
+    right: 0;
+  
+  }
