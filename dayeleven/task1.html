@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: white;
+            color:black;
+
+        }
+      
+
+            
+    
+        @media only screen and (max-width:480px){
+           body {
+              background-color: lightblue;
+            }
+        }
+
+        .container{
+            border:5px solid rgb(255, 251, 0);
+            margin: 30px;
+            display:grid;
+            height:600px;
+            width:550px;
+            grid-template-rows:repeat(7,100px);
+            grid-template-columns:repeat(6,110px);
+            /* gap:10px; */
+            background-color: rgb(11, 4, 18);
+            box-shadow: -20px -20px 100px rgb(56, 94, 160);
+            text-align: center;
+            margin-left:400px
+        }
+        .a{
+            background-color: antiquewhite;
+            grid-column: 1/3;
+            margin-bottom:10px;
+            margin-right: 10px;
+
+        }
+       .b {
+            background-color: rgb(24, 14, 220);
+            grid-row: 2/4;
+            margin-right: 10px;
+        }
+        .c{
+            background-color:rgb(132, 255, 159);
+            grid-column:3/5 ;
+            grid-row:1/4;
+
+        }
+        .d{
+            background-color:rgb(132, 255, 159);
+            grid-row:2/4  
+        }
+        .e{
+            background-color: rgb(161, 102, 153);
+            grid-column: 1/6;
+            margin-top: 10px;
+
+        }
+        .f{
+            grid-row: 5/7;
+            grid-column: 1/2;
+            background-color: rgb(15, 99, 173);
+            margin-top: 10px;
+            margin-right: 10px;
+
+        }
+        .g{
+            background-color: yellow;
+            grid-row: 1/4;
+            margin-left:10px
+
+        }
+        .h{
+            grid-column: 2/4;
+            grid-row:5/7;
+            background-color: beige;
+            margin-top: 10px;
+            margin-right: 10px;
+
+        }
+        .j{
+            grid-row: 5/7;
+            background-color: rgb(65, 142, 142);
+            margin-top: 10px;
+        }
+        .k{
+          grid-row: 5/6;
+          background-color: rgb(182, 74, 86);
+          margin-top: 10px;
+          margin-left: 10px;
+          margin-bottom: 10px;
+        }
+        .l{
+          grid-row: 6/7;
+          background-color: rgb(65, 142, 142);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="a">
+            A
+        </div>
+        <div class="b">b</div>
+        <div class="c">C</div>
+        <div class="d"></div>
+        <div class="e">E</div>
+        <div class="f">F</div>
+        <div class="g">G</div>
+        <div class="h">H</div>
+        <div class="j">J</div>
+        <div class="k">K</div>
+        <div class="l"></div>
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .zoom {
+          padding: 50px;
+          background-color: antiquewhite;
+          transition: transform .2s; /* Animation */
+          width: 20px;
+          height: 20px;
+          margin: 0 auto;
+        }
+        .zoom img{
+            height:50px;
+            width:50px;
+
+        }
+        
+        img:hover {
+          transform: scale(1.5);
+          opacity:0.5;
+          filter:brightness(30%);
+          
+           /*;
+           (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+        }
+        .button {
+            display: none;
+            position:absolute;
+         
+            left: 50%;
+            transform: translate(-50%, -50%); 
+           
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .a:hover .button {
+            display:inline-block;
+        }
+        </style>
+</head>
+<body>
+       <div class="a">
+    <div class="zoom">
+        <img src="http://clipart-library.com/images_k/carrot-transparent/carrot-transparent-12.png">
+    </div>
+    <div class="button">
+        <button>send</button>
+    </div>
+    </div>
+</body>
+</html>
+https://superdesigner.co/tools/color-generator
+https://cssgradients.io/
+https://uiverse.io/elements
+https://www.cssportal.com/
