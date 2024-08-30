@@ -9,6 +9,16 @@ nav{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: larger;
 }
+.navbar-nav{
+ margin-top: 11px;   
+}
+@media (max-width:526px)
+{
+    .navbar-toggler-icon{
+     margin-right:-300px ;
+    
+    }
+}
 #container1{
     margin-top: 65px;
 }
