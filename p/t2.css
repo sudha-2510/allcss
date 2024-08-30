@@ -11,6 +11,7 @@ nav{
 .navbar-brand{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: larger;
+    margin-top: 7px;
 }
 .navbar-nav{
  margin-top: 18px;   
@@ -19,7 +20,7 @@ nav{
 @media (max-width:526px)
 {
     .navbar-toggler-icon{
-     margin-right:-300px ;
+     margin-right:-290px ;
     
     }
 }
@@ -871,7 +872,8 @@ button {
 .container9 img {
     width: 100%; /* Make the image width responsive */
     height: 400px; /* Maintain aspect ratio */
-    max-width: 1300px; /* Set a max-width to prevent it from growing too large */
+    max-width: 1300px;
+    max-width:100%; /* Set a max-width to prevent it from growing too large */
 }
 /*container 6*/
 #container6 {
