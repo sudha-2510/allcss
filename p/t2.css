@@ -706,7 +706,7 @@ nav{
     transform: translateY(-10px);
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
   }
- 
+ resz
 .c71 {
     margin: 0 10px;
     flex: 1 1 30%; /* Adjusts items to take up roughly 30% of the container width */
@@ -764,8 +764,17 @@ nav{
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
+    transition: transform .2s;
  
 }
+.c71:hover {
+    transform: scale(0.8);
+ 
+   
+    
+     /*;
+     (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
 
 .c71 img {
     width: 100%;
@@ -844,18 +853,24 @@ button {
      .c71{
         border-width: auto;
 
+
      }
 }
 /* continer 9*/
 .container9 {
-    display: flex;
+ 
     justify-content: center; /* Center the image horizontally */
     margin: 10px; /* Add margin for spacing */
+}
+.container9 h3{
+    margin-top:-70px;
+    color:white;
+    font-family:serif;
 }
 
 .container9 img {
     width: 100%; /* Make the image width responsive */
-    height: 300px; /* Maintain aspect ratio */
+    height: 400px; /* Maintain aspect ratio */
     max-width: 1300px; /* Set a max-width to prevent it from growing too large */
 }
 /*container 6*/
