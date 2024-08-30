@@ -1,3 +1,6 @@
+body{
+   background-color: rgb(222, 221, 221);
+}
 nav{
    z-index:-1;
    background-color: #f7fafe;
@@ -10,8 +13,9 @@ nav{
     font-size: larger;
 }
 .navbar-nav{
- margin-top: 11px;   
+ margin-top: 18px;   
 }
+
 @media (max-width:526px)
 {
     .navbar-toggler-icon{
@@ -698,15 +702,21 @@ nav{
     margin-top: 5%;
     justify-content: space-between;
 }
-
+.c71,.c72 {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  }
+ 
 .c71 {
     margin: 0 10px;
     flex: 1 1 30%; /* Adjusts items to take up roughly 30% of the container width */
     box-sizing: border-box;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .c72 {
     margin-top: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .c71 img {
